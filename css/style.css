@@ -1,0 +1,149 @@
+body{ background: #e8e8e8;}
+a:hover{ text-decoration: none;}
+.c-box{ width: 10rem; margin: 0 auto;}
+.c-zhuohao{ width: 9.53125rem; padding: 0 0.234375rem; height: 1.2rem; line-height: 1.2rem; overflow: hidden; display: block; background: #fff; margin: 0.25rem 0;}
+.c-zhuohao .c-left{ float: left; font-size: 0.46875rem; color: #333333;}
+.c-zhuohao .c-right{ float: right; color: #999999; font-size: 0.46875rem;}
+.c-zhuohao .c-img{ float: right; width: 0.3125rem; height: 1.203125rem;}
+.c-dingdan{ margin-bottom: 0.390625rem;}
+.c-dingdan .mt{ overflow: hidden; height: 1rem; line-height: 1rem; font-size: 0.375rem; color: #cfcfcf; padding: 0 0.25rem; background: #fff; border-bottom: 1px solid #e7e7e7;}
+.c-dingdan .mt .c-left{ float: left;}
+.c-dingdan .mt .c-right{ float: right;}
+.c-dingdan .mb{ overflow: hidden; background: #fff; height: 1rem; padding: 0 0.25rem;}
+.c-dingdan .mb .c-left{ float: left; line-height: 1rem; font-size: 0.375rem;}
+.c-dingdan .mb .c-btn{ float: right; height: 0.6rem; width: 1.5625rem; border: 1px solid #999999; border-radius: 0.25rem; margin-top: 0.2rem;}
+.c-dingdan .mb .c-btn button{ width: 100%; height: 100%; border: 0; background: transparent; color: #999999; font-size: 0.3125rem; display: block;}
+.c-dingdan .mc li{ background: #fff; padding: 0.3125rem 0.25rem; border-bottom: 1px solid #e7e7e7; height: 1.328125rem; overflow: hidden;}
+.c-dingdan .mc li .c-img{ width: 1.921875rem; height: 1.328125rem; float: left;}
+.c-dingdan .mc li .c-tit{ float: left; width: 6.125rem; margin-left: 0.1875rem;}
+.c-dingdan .mc li .c-tit h2{ font-size: 0.375rem; color: #333333; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.c-dingdan .mc li .c-tit h3{ color: #999999; font-size: 0.25rem; line-height: 0.4rem;}
+.c-dingdan .mc li .c-tit p{ font-size: 0.3125rem; color: #333333;}
+.c-dingdan .mc li .c-num{ height: 1.328125rem; line-height: 1.328125rem; color: #dfdfdf; font-size: 0.3125rem; float: left; width: 1.25rem; text-align: center;}
+
+.c-h69{ height: 1.078125rem;}
+.c-fixed{ position: fixed; z-index: 1000; width: 10rem; bottom: 0; left: 50%; margin-left: -5rem;}
+.c-jiesuan{ height: 1.078125rem; overflow: hidden;}
+.c-jiesuan .c-num{ width: 6.34375rem; float: left; height: 1.078125rem; background: #ffc2a1; text-align: center; font-size: 0.375rem; color: #171717; line-height: 1.078125rem;}
+.c-jiesuan .c-btn{ width: 3.65625rem; float: left; height: 1.078125rem;}
+.c-jiesuan .c-btn button{ width: 100%; height: 100%; border: 0; background: #ff501a; color: #fff; font-size: 0.375rem;}
+
+.c-zhuangtai{ height: 1.2rem; line-height: 1.2rem; padding: 0 0.25rem; background: #fff; font-size: 0.40625rem;}
+.c-zhuangtai .c-left{ float: left;}
+.c-zhuangtai .c-right{ float: right; height: 0.65rem; line-height: 0.65rem; margin-top: 0.275rem; width: 1.8rem; text-align: center; color: #fff; background: #ff0000; border-radius: 0.265625rem; font-size: 0.3125rem;}
+
+.c-tou{ width: 9.53125rem; padding: 0.3125rem 0.234375rem; background: #fff; height: 1.8rem; overflow: hidden;}
+.c-tou .c-img{ width: 1.8rem; height: 1.8rem; border-radius: 0.625rem; overflow: hidden; float: left;}
+.c-tou .c-tit{ margin-left: 0.234375rem; width: 7.446875rem; float: left; line-height: 1.8rem; font-size: 0.5rem; color: #333333;}
+.c-h80{ height: 1.25rem;}
+.c-fixed1{ height: 1.25rem; background: #fff;}
+.c-fixed1 li{ width: 33.333333%; float: left; height: 1.25rem;}
+.c-fixed1 li a{ display: block; width: 100%; height: 100%;}
+.c-fixed1 li .c-img{ width: 0.58125rem; height: 0.58125rem; margin: 0.1rem auto;}
+.c-fixed1 li .c-tit{ font-size: 0.3125rem; color: #929292; text-align: center;}
+.c-fixed1 li.on .c-tit{ color: #070707;}
+.c-fixed1 .li1 .c-img{ background: url(../img/zhu.png) no-repeat center top / cover;}
+.c-fixed1 .li2 .c-img{ background: url(../img/ding.png) no-repeat center top / cover;}
+.c-fixed1 .li3 .c-img{ background: url(../img/wo.png) no-repeat center top / cover;}
+.c-fixed1 .li1.on .c-img{ background: url(../img/zhu1.png) no-repeat center top / cover;}
+.c-fixed1 .li2.on .c-img{ background: url(../img/ding1.png) no-repeat center top / cover;}
+.c-fixed1 .li3.on .c-img{ background: url(../img/wo1.png) no-repeat center top / cover;}
+
+.c-back{ position: fixed; top: 0; left: 50%; margin-left: -5rem; width: 10rem; height: 1.2rem; border-bottom: 1px solid #b6b6b6; overflow: hidden; background: #fff; z-index: 1000;}
+.c-back .c-img{ float: left; width: 0.65rem; height: 1.2rem; padding: 0 0.21875rem;}
+.c-back .c-tit{ float: left; line-height: 1.2rem; color: #171717; font-size: 0.4375rem;}
+.c-h48{ height: 1.2rem;}
+.c-xuanzhuo ul{ overflow: hidden;}
+.c-xuanzhuo li{ float: left; background: #fff; width: 33.333333%; height: 2.78125rem; text-align: center; position: relative; overflow: hidden; font-size: 0.46875rem;}
+.c-xuanzhuo li a{ display: block; width: 100%; height: 100%; color: #171717;}
+.c-xuanzhuo li.on{ background: #ff630e;}
+.c-xuanzhuo li.on a{ color: #fff;}
+.c-xuanzhuo li:after{ content: ""; position: absolute; bottom: 0; left: 0; width: 100%; height: 1px; background: #b6b6b6;}
+.c-xuanzhuo li:before{ content: ""; position: absolute; top: 0; right: 0; width: 1px; height: 100%; background: #b6b6b6;}
+.c-xuanzhuo li h2{ margin-top: 0.625rem;}
+
+.c-fixed2{ height: 1.09375rem; overflow: hidden; text-align: center; background: #ffc2a1; line-height: 1.09375rem; color: #171717; font-size: 0.375rem;}
+.c-h70{ height: 1.09375rem;}
+
+.c-banner{ width: 10rem; height: 4.4375rem;}
+.c-xinxi{ padding: 0.3125rem; background: #fff; overflow: hidden;}
+.c-xinxi .c-logo{ width: 1.59375rem; height: 1.59375rem; float: left;}
+.c-xinxi .c-tit{ width: 6.5625rem; float: left; margin-left: 0.234375rem;}
+.c-xinxi .c-tit p{ font-size: 0.375rem; color: #000000; line-height: 0.796875rem; text-overflow: ellipsis; white-space: nowrap; overflow: hidden;}
+.c-xinxi .c-right{ float: right;}
+.c-xinxi .c-right .c-img{ width: 0.59375rem; height: 0.59375rem; margin: 0.109375rem 0 0.09375rem 0;}
+.c-share{ height: 1.2rem; line-height: 1.2rem; background: #fff; margin: 0.25rem 0;}
+.c-share .c-tit{ float: left; margin-left: 0.3125rem; font-size: 0.4375rem; color: #000000;}
+.c-share .c-tit span{ color: #ff841a; margin: 0 0.15625rem;}
+.c-share .c-btn{ float: right; height: 1.2rem; width: 1.8rem;}
+.c-share .c-btn button{ width: 100%; height: 100%; color: #fff; background: #ff9539; font-size: 0.375rem; border: 0; display: block;}
+
+.c-jinxuan{ background: #fff; margin-bottom: 0.234375rem;}
+.c-tx{ text-align: center; height: 1.2rem; line-height: 1.2rem; font-size: 0.390625rem; color: #999999;}
+.c-tx span{ position: relative;}
+.c-tx span:after{ content: ""; position: absolute; left: -0.625rem; width: 0.46875rem; height: 1px; background: #b6b6b6; top: 0.203125rem;}
+.c-tx span:before{ content: ""; position: absolute; right: -0.625rem; width: 0.46875rem; height: 1px; background: #b6b6b6; top: 0.203125rem;}
+.c-jinxuan .c-slide{ padding: 0 0.3125rem; padding-bottom: 0.625rem;}
+.c-jinxuan .c-slide .mt{ overflow: hidden; padding-bottom: 0.546875rem; border-bottom: 1px solid #d9d9d9}
+.c-jinxuan .c-slide .mt .c-img{ width: 4.9375rem; height: 2.875rem; float: left;}
+.c-jinxuan .c-slide .mt .c-tit{ width: 4.125rem; float: left; margin-left: 0.3125rem;}
+.c-jinxuan .c-slide .mt .c-tit h2{ font-size: 0.5rem; color: #000000; line-height: 0.609375rem; height: 1.21875rem; overflow: hidden; margin-top: 0.4rem; font-weight: bold;}
+.c-jinxuan .c-slide .mt .c-tit p{ font-size: 0.359375rem; color: #999999; line-height: 0.40625rem; height: 1.21875rem; overflow: hidden;}
+.c-jinxuan .c-slide .mc li{ overflow: hidden; padding: 0.234375rem 0; line-height: 0.5625rem; font-size: 0.359375rem;}
+.c-jinxuan .c-slide .mc li .c-img{ width: 0.5625rem; height: 0.5625rem; margin-right: 0.125rem; float: left;}
+.c-jinxuan .c-slide .swiper-pagination{ bottom: 0;}
+.c-jinxuan .c-slide .swiper-pagination-bullet{ width: 0.25rem; height: 0.25rem; margin: 0 0.078125rem; border-radius: 0.125rem; background: #c1c1c1; opacity: 1;}
+.c-jinxuan .c-slide .swiper-pagination-bullet-active{ background: #333333;}
+
+.c-cai{ background: #fff; padding: 0 0.3125rem; margin-bottom: 0.3125rem;}
+.c-cai li{ overflow: hidden; padding: 0.25rem 0; border-bottom: 1px solid #e7e7e7;}
+.c-cai li .c-img{ width: 2.40625rem; height: 1.65625rem; float: left; border-radius: 0.09375rem;}
+.c-cai li .c-tit{ float: right; width: 6.5625rem;}
+.c-cai li .c-tit h2{ color: #333333; font-size: 0.4375rem; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; margin-top: 0.234375rem; margin-bottom: 0.15625rem;}
+.c-cai li .c-tit p{ display: inline-block; color: #f17330; font-size: 0.375rem; padding: 0 0.125rem; height: 0.5rem; line-height: 0.5rem; border: 1px solid #f56a1a; border-radius: 0.1875rem;}
+
+.c-pei{ background: #fff; margin-bottom: 0.9375rem;}
+.c-pei ul{ overflow: hidden;}
+.c-pei li{ float: left; width: 25%; text-align: center; padding: 0.15625rem 0; line-height: 0.5rem; font-size: 0.40625rem;}
+.c-pei li .c-img{ width: 0.7rem; height: 0.7rem; margin-right: 0.125rem; display: inline-block; vertical-align: middle;}
+
+.menulist{ width: 10rem; overflow: hidden; height: calc(100% - 2.25rem);}
+#mainlist{ float: left; width: 2.34375rem; overflow-y: auto; background: #ededed; height: 100%;}
+#mainlist li{ height: 1.5rem; line-height: 1.5rem; color: #000000; padding-left: 0.203125rem; font-size: 0.40625rem;}
+#mainlist li.on{ background: #fff;}
+.menulist .c-main{ height: 100%;}
+#detaillist{ float: left; width: 7.65625rem; overflow-y: auto; padding: 0 0.3125rem; background: #fff; height: 100%;}
+
+#detaillist dd{ border-bottom: 1px solid #e7e7e7; overflow: hidden; padding: 0.3125rem 0; position: relative;}
+#detaillist dd .imgbox{ width: 2.0625rem; height: 1.4375rem; float: left;}
+#detaillist dd .titbox{ float: right; width: 4.6875rem;}
+#detaillist dd .titbox h1{ color: #000000; font-size: 0.375rem; line-height: 0.625rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+#detaillist dd .titbox h2{ font-size: 0.375rem; margin-top: 0.28125rem;}
+#detaillist dd .number{ position: absolute; bottom: 0.3125rem; right: 0.3125rem;}
+.min{ width: 0.7rem; height: 0.7rem; background: url(../img/jian.png) no-repeat center top / cover; border: 0; display: inline-block; vertical-align: top; display: none;}
+.add{ width: 0.7rem; height: 0.7rem; background: url(../img/jia.png) no-repeat center top / cover; border: 0; display: inline-block; vertical-align: top;}
+.text_box{ border: 0; width: 0.625rem; display: inline-block; vertical-align: top; height: 0.7rem; text-align: center; display: none; font-size: 0.375rem;}
+#detaillist .titbox .type{ display: none;}
+
+.balance{ position: fixed; bottom: 2.25rem; width: 10rem; left: 50%; margin-left: -5rem; z-index: 1000; height: 100%; display: none;}
+.bgbg{ width: 100%; height: 100%; background: rgba(0,0,0,.5); float: left;}
+.balance .balance-box{ position: fixed; bottom: 2.25rem; left: 50%; width: 10rem; margin-left: -5rem; background: #fff;}
+.balance-btn{ height: 0.71875rem; background: #dcdcdc; overflow: hidden; padding: 0 0.3125rem; line-height: 0.71875rem;}
+.balance-btn .c-tit{ float: left; color: #a1a1a1; font-size: 0.3125rem;}
+.balance-btn .clear{ float: right; color: #a1a1a1; font-size: 0.3125rem;}
+.balance ul{ max-height: 5.5rem; overflow-y: auto;}
+.balance li{ margin: 0 0.3125rem; border-bottom: 1px solid #b6b6b6; padding: 0.15625rem 0; overflow: hidden;}
+.balance li .c-left{ float: left; width: 5.75rem;}
+.balance li .c-left .c-t{ color: #333333; font-size: 0.46875rem;}
+.balance li .c-left .c-b{ color: #a0a0a0; font-size: 0.40625rem;}
+.balance li h2{ float: left; line-height: 1.28125rem; font-size: 0.375rem;}
+.balance li .min{ display: inline-block;}
+.balance li .text_box{ display: inline-block;}
+.balance li .number{ float: right; margin-top: 0.275rem;}
+
+.c-h64{ height: 1rem;}
+.diancan{ height: 1rem; position: fixed; bottom: 1.25rem; background: #bdbdbd; text-align: center; line-height: 1rem; width: 10rem; left: 50%; margin-left: -5rem; z-index: 999;}
+.cart{ height: 1rem; position: fixed; bottom: 1.25rem; background: #ffc2a1; text-align: center; line-height: 1rem; width: 10rem; left: 50%; margin-left: -5rem; z-index: 1001; display: none;}
+.cart .price{ width: 6.34375rem; float: left; font-size: 0.375rem; color: #171717;}
+.cart .btn{float: left; width: 3.65625rem; color: #fff; font-size: 0.375rem; background: #ff501a;}
+.layui-layer-setwin{ display: none;}

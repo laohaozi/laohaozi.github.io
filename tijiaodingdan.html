@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+		<link rel="stylesheet" href="css/c-reset.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="c-box">
+			<div class="c-zhuohao" id="test1">
+				<div class="c-left">桌号</div>
+				<div class="c-img"><img src="img/right.jpg" /></div>
+				<div class="c-right">散桌（6）</div>
+			</div>
+			<div class="c-dingdan">
+				<div class="mc">
+					<ul>
+						<li>
+							<div class="c-img"><img src="img/img1.jpg" /></div>
+							<div class="c-tit">
+								<h2>红烧牛肉</h2>
+								<h3>份</h3>
+								<p>￥48</p>
+							</div>
+							<div class="c-num">x1</div>
+						</li>
+						<li>
+							<div class="c-img"><img src="img/img1.jpg" /></div>
+							<div class="c-tit">
+								<h2>红烧牛肉</h2>
+								<h3>份</h3>
+								<p>￥48</p>
+							</div>
+							<div class="c-num">x1</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="c-h69"></div>
+			<div class="c-fixed c-jiesuan">
+				<div class="c-num">合计：￥32</div>
+				<div class="c-btn"><button>去结算</button></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js" ></script>
+		<script type="text/javascript" src="layer/layer.js" ></script>
+		<script>
+			 $('#test1').on('click', function(){
+			    layer.open({
+			    	title: false,
+			    	closeBtn: 0,
+				  type: 2,
+				  area: ['100%', '100%'],
+				  fixed: false, //不固定
+				  maxmin: true,
+				  content: 'xuanzhuo.html'
+				});
+			  });
+		</script>
+	</body>
+</html>
